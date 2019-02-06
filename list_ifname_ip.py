@@ -10,4 +10,4 @@ def list_ifname_ip(file):
             list2.append((line[11:26],line[27:]))
     d = zip(list1,list2)
     return d
-
+    return list2
